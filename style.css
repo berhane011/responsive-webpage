@@ -1,0 +1,90 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: url("pic1.png");
+    background-attachment: fixed;
+  
+  
+}
+.header{
+    padding-left: 114;
+    padding-top: 30px;
+    padding-right: 0px;
+   
+ 
+}
+.container-fluid{
+    background-color: white;
+}
+
+h1{
+    padding: 20px;
+    text-align: center;
+    padding: ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.navbar-brand{
+    background-color: #4aaaa5;
+    margin-left: 30px;
+}
+.navbar{
+    padding-left: 30%;
+}
+.col-sm-6{
+    background-color: white;
+}
+#title{
+   
+
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 0px;
+    width: 100%;
+
+    
+    
+}
+.con-color{
+    background-color: white;
+    padding: 0px 50px 50px 50px;;
+  
+ 
+}
+.image{
+   
+    width: 29%;
+    padding-right: 20px;
+    border-radius: 100%;
+    float: left;
+
+}
+footer{
+    background-color: gray;
+    text-align: center;
+    width: ;
+  padding: 2rem;
+}
+
+.img-fluid{
+    padding: 4rem;
+    height: 20rem;
+}
+@media only screen and (max-width:700px){
+    .image{
+        float: none;
+   
+    }
+    .
+}
+/* contact */
+
+.container{
+    background-color: white;
+    padding: 5rem;
+}
+.contact{
+    padding-top: 80px;
+}
