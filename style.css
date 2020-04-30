@@ -1,29 +1,26 @@
-html{
-    height: 100%;
-}
+
 body{
-    background-image: url("pic1.png");
-    background-attachment: fixed;
-  
-  
+   background-color: lightgrey;
+   
 }
 .header{
     padding-left: 114;
     padding-top: 30px;
     padding-right: 0px;
-   
- 
 }
 .container-fluid{
     background-color: white;
+}
+.nav-lin:hover{
+color: lightpink;
 }
 
 h1{
     padding: 20px;
     text-align: center;
-    padding: ;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 100;
+    font-size: 3rem;
 }
 .navbar-brand{
     background-color: #4aaaa5;
@@ -35,42 +32,51 @@ h1{
 .col-sm-6{
     background-color: white;
 }
-#title{
-   
 
-    padding-top: 10%;
-    padding-bottom: 10%;
-    padding-left: 10%;
-    padding-right: 0px;
-    width: 100%;
-
-    
-    
+.nav-link{
+    font-size: 1.5rem;
 }
 .con-color{
     background-color: white;
-    padding: 0px 50px 50px 50px;;
-  
- 
+    padding: 0px 50px 50px 50px;; 
 }
+.img-fluid{
+    text-align: center;
+    margin: 1.5rem;
+    
+}
+
 .image{
-   
-    width: 29%;
-    padding-right: 20px;
-    border-radius: 100%;
+    
+    width: 30%;
+    padding-right: 30px;
+    border-radius: 1rem;;
     float: left;
 
 }
 footer{
     background-color: gray;
     text-align: center;
-    width: ;
-  padding: 2rem;
+     padding: rem;
 }
-
+.img-fluid:hover{
+   background-color: lightslategray;
+} 
+h1:hover{
+    opacity: .5;
+   
+}
+.head-title:hover{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5remS;
+}
+.nav-link:hover{
+   font-size: 1.8rem;
+}
 .img-fluid{
-    padding: 4rem;
+    padding: 1.5rem;
     height: 20rem;
+    
 }
 @media only screen and (max-width:700px){
     .image{
@@ -86,5 +92,6 @@ footer{
     padding: 5rem;
 }
 .contact{
-    padding-top: 80px;
+ padding-top: 15rem;
+
 }
